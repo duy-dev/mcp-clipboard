@@ -1,0 +1,13 @@
+{
+  "name": "clipboard-manager",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "runtime": "node",
+  "install": "npm install",
+  "tools": [
+    {
+      "name": "get_clipboard_image",
+      "description": "Lấy ảnh từ clipboard hệ thống (Mac/Win/Linux)"
+    }
+  ]
+}
