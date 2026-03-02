@@ -1,0 +1,18 @@
+{
+  "name": "mcp-clipboard",
+  "version": "1.0.0",
+  "description": "MCP Server lấy ảnh từ clipboard cho OpenCode hỗ trợ Win/Mac/Linux",
+  "main": "index.mjs",
+  "type": "module",
+  "bin": {
+    "mcp-clipboard": "./index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "clipboardy": "^4.0.0",
+    "jimp": "^0.22.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
